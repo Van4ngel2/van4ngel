@@ -13,7 +13,7 @@ public class matriz {
             System.out.println();
             for (int j = 0; j < 3; j++) {
 
-                System.out.println("Digite a quantidade de botões P e G " + " " + "da camisa " + j + " ");
+                System.out.println("Digite a quantidade de botões da camisa " + j + " da coluna " + j);
                 a[i][j] = scan.nextInt();
             }
         }
@@ -21,8 +21,7 @@ public class matriz {
         for (int i = 0; i < 3; i++) {
             System.out.println();
             for (int j = 0; j < 2; j++) {
-                System.out.println("Digite a quantidade de vendas do mês de maio e junho" + " " + " da camisa: " + j
-                        + " ");
+                System.out.println("Digite a quantidade de vendas do mês ");
                 b[i][j] = scan.nextInt();
             }
 
